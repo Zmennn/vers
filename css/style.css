@@ -1,10 +1,11 @@
 :root{
     --main-text-color:#555555;
-    --second-text-color:#9DA4BD;
-    --main-title-color:#FFFFFF;
-    --second-title-color:#303030;
+    --dark-bg-text-color:#9DA4BD;
+    --dark-bg-title-color:#FFFFFF;
+    --title-color:#303030;
     --accent-color:#FF6C00;
-
+    --dark-bg-color:#191C26;
+    --titile-font:'Raleway';
 }
 /* raleway-regular - cyrillic */
 @font-face {
@@ -33,3 +34,30 @@
        url('../fonts/raleway-v19-cyrillic-700.svg#Raleway') format('svg'); /* Legacy iOS */
 }
 
+body{font-family: Open Sans, sans-serif;
+font-size: 18px;
+line-height: 1.67;
+letter-spacing: 0.02em;
+color: var(--main-text-color);}
+
+.link{text-decoration: none;
+color: inherit;}
+
+.list{list-style: none;}
+
+.button{
+font-weight: 600;
+font-size: 12px;
+line-height: 1.33;
+text-align: center;
+letter-spacing: 0.09em;
+text-transform: uppercase;
+color: var(--title-color);}
+
+.page-title{
+font-family: var(--titile-font),sans-serif;
+font-weight: 700;
+font-size: 72px;
+line-height: 1.18;
+letter-spacing: 0.05em;
+color:var(--dark-bg-title-color);}
