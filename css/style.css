@@ -5,6 +5,7 @@
     --title-color:#303030;
     --accent-color:#FF6C00;
     --dark-bg-color:#191C26;
+    --second-bg-color:#F7F7F7;
     --titile-font:'Raleway';
     
 }
@@ -115,6 +116,31 @@ line-height: 1.33;
 letter-spacing: 0.1em;
 color: var(--dark-bg-title-color);}
 
+.benefits-item{
+font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+text-align: center;
+color: var(--title-color);
+background-color: var(--second-bg-color);
+}
+
+.benefits-number{
+font-weight: 700;
+font-size: 42px;
+line-height: 1.36;
+letter-spacing: 0.05em;
+}
+
+.team{background-color:var(--second-bg-color) ;}
+
+.team-member{
+font-weight: normal;
+font-size: 18px;
+line-height: 1.39;
+color: var(--title-color);
+}
+
 
 
 
@@ -123,6 +149,6 @@ color: var(--dark-bg-title-color);}
 .dark-bg{background-color: var(--dark-bg-color);
 color: var(--dark-bg-text-color);}
 
-.dark-bg .title{color: var(--dark-bg-title-color);}
+.dark-bg .title,.dark-bg .button{color: var(--dark-bg-title-color);}
 
 .dark-bg .title-label{color: rgba(157, 164, 189, 0.6);}
