@@ -132,13 +132,20 @@ line-height: 1.36;
 letter-spacing: 0.05em;
 }
 
-.team{background-color:var(--second-bg-color) ;}
+.team{background-color:var(--second-bg-color) ;
+text-align: center;}
 
 .team-member{
-font-weight: normal;
+font-weight: 400;
 font-size: 18px;
 line-height: 1.39;
 color: var(--title-color);
+}
+
+.team-member-position{
+font-size: 14px;
+line-height: 1.36;
+color: var(--accent-color);
 }
 
 
