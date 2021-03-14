@@ -46,6 +46,13 @@ color: inherit;}
 
 .list{list-style: none;}
 
+.socials-list{
+font-weight: 600;
+font-size: 11px;
+line-height: 11.36;
+letter-spacing: 0.2em;
+color: var(--title-color);
+
 .button{
 font-weight: 600;
 font-size: 12px;
