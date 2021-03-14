@@ -43,6 +43,7 @@ color: var(--main-text-color);}
 
 .link{text-decoration: none;
 color: inherit;}
+.link:focus,.link:hover{color: var(--accent-color);}
 
 .list{list-style: none;}
 
@@ -51,7 +52,8 @@ font-weight: 600;
 font-size: 11px;
 line-height: 11.36;
 letter-spacing: 0.2em;
-color: var(--title-color);
+color: var(--title-color);}
+
 
 .button{
 font-weight: 600;
@@ -75,3 +77,23 @@ color:var(--dark-bg-title-color);}
 font-size: 42px;
 line-height: 1.17;
 color: var(--title-color);}
+
+.title-label{
+font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+color:var(--title-color);
+letter-spacing: 0.1em;
+text-transform: uppercase;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
