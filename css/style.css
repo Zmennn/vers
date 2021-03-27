@@ -65,6 +65,11 @@ color: inherit;}
 .logo{display: block;}
 
 /* header */
+.header{
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+
 .menu{display: inline-flex;}
 
 .menu-item:not(:last-child){
@@ -88,6 +93,7 @@ color: inherit;}
 }
 
 .button{
+  min-width: 100px;
 font-weight: 600;
 font-size: 12px;
 line-height: 1.33;
@@ -98,6 +104,13 @@ color: var(--title-color);
 border: 1px solid var(--accent-color);
 border-radius: 25px;
 padding: 12px 20px;}
+
+.button:focus,
+.button:hover{
+  background-color: var(--accent-color);
+}
+
+.header .button{margin-left: 40px;}
 
 .socials-list{
 font-weight: 600;
