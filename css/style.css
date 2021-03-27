@@ -62,6 +62,31 @@ color: inherit;}
   padding: 0;
 }
 
+.logo{display: block;}
+
+/* header */
+.menu{display: inline-flex;}
+
+.menu-item:not(:last-child){
+  margin-right: 40px;
+}
+
+.header .container{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navigation{
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.header .logo{
+  margin-right: 71px;
+}
+
 .button{
 font-weight: 600;
 font-size: 12px;
@@ -69,7 +94,10 @@ line-height: 1.33;
 text-align: center;
 letter-spacing: 0.09em;
 text-transform: uppercase;
-color: var(--title-color);}
+color: var(--title-color);
+border: 1px solid var(--accent-color);
+border-radius: 25px;
+padding: 12px 20px;}
 
 .socials-list{
 font-weight: 600;
