@@ -47,8 +47,7 @@ html {
 }
 
 *{
-  outline: solid 1px violet;
-
+  /* outline: solid 1px violet; */
 }
 
 body{font-family: Open Sans, sans-serif;
@@ -229,9 +228,20 @@ font-size: 42px;
 line-height: 1.36;
 letter-spacing: 0.05em;
 }
+/* team */
 
-.team{background-color:var(--second-bg-color) ;
-text-align: center;}
+.team{
+  padding-top: 130px;
+  padding-bottom: 130px;
+  background-color:var(--second-bg-color) ;
+}
+.team .title-label{
+  margin-bottom: 20px;
+}
+
+.team .section-title{
+  margin-bottom: 44px;
+}
 
 .team-member{
 font-weight: 400;
@@ -245,6 +255,35 @@ font-size: 14px;
 line-height: 1.36;
 color: var(--accent-color);
 }
+.team-text{
+  padding-top: 30px;
+  text-align: center;
+}
+.team-member{
+  margin-bottom: 8px;
+}
+.team-member-position{
+  margin-bottom: 30px;
+}
+.social-link-container{
+  display: inline-flex;
+}
+.social-item:not(:last-child){
+  margin-right: 10px;
+}
+
+
+.social-link{
+  display: flex;
+  display: block;
+  width: 44px;
+  height: 44px;
+  
+
+
+  
+}
+
 
 
 
