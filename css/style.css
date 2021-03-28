@@ -278,6 +278,9 @@ color: var(--accent-color);
   display: block;
   width: 44px;
   height: 44px;
+  justify-content: center;
+  align-items: center;
+  fill: var(--title-color);
   
 
 
