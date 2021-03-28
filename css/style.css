@@ -7,6 +7,7 @@
     --dark-bg-color:#191C26;
     --second-bg-color:#F7F7F7;
     --titile-font:'Raleway';
+    --grid-items:3;
     
 }
 /* raleway-regular - cyrillic */
@@ -36,6 +37,20 @@
        url('../fonts/raleway-v19-cyrillic-700.svg#Raleway') format('svg'); /* Legacy iOS */
 }
 
+html {
+	box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
+*{
+  outline: solid 1px violet;
+
+}
+
 body{font-family: Open Sans, sans-serif;
 font-size: 18px;
 line-height: 1.67;
@@ -44,6 +59,13 @@ color: var(--main-text-color);}
 
 address{font-style: normal;}
 
+img{
+  display: block;
+}
+ h1,h2,h3,h4,p{
+   margin: 0;
+   padding: 0;
+ }
 .container{
   width: 1200px;
   padding-left: 15px;
@@ -60,6 +82,20 @@ color: inherit;}
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+/* grids */
+
+.grid-container{
+  display: flex;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.grid-item{
+  flex-basis: calc((100% - var(--grid-items) * 30px) / var(--grid-items));
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
 .logo{display: block;}
@@ -169,6 +205,15 @@ line-height: 1.33;
 letter-spacing: 0.1em;
 color: var(--dark-bg-title-color);}
 
+/* Hero */
+
+.hero{
+  min-height: 100vh;
+}
+
+.hero-content{
+  width: calc(100%/12*5);
+}
 .benefits-item{
 font-weight: 600;
 font-size: 11px;
