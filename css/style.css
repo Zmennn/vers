@@ -138,7 +138,7 @@ color: inherit;}
 }
 
 .button{
-  min-width: 100px;
+  width: 160px;
 font-weight: 600;
 font-size: 12px;
 line-height: 1.33;
@@ -148,7 +148,8 @@ text-transform: uppercase;
 color: var(--title-color);
 border: 1px solid var(--accent-color);
 border-radius: 25px;
-padding: 12px 20px;}
+padding-top: 12px;
+padding-bottom: 12px;}
 
 .button:focus,
 .button:hover{
@@ -264,6 +265,35 @@ line-height: 1.86;
 letter-spacing: 0.02em;
 }
 
+/* price */
+.price-list-container{
+  display: flex;
+}
+
+.price-list{
+  flex-basis: 50%;
+  padding: 30px 40px;
+}
+
+.price .button{
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.price-list-item{
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-list-item:not(:last-child){
+  margin-bottom: 20px;
+}
+
+.price h2{
+  margin-top: 20px;
+  margin-bottom: 44px;
+}
 
 
 .benefits-item{
