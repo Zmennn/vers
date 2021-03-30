@@ -45,41 +45,47 @@
             </ul>
         </div>
     </section>
-    <section>
-        <ul class="list">
-            <li><img src="./images/best/img1.jpg" width="270" height="445" alt="барбер за работой"></li>
-            <li><img src="./images/best/img2.jpg" width="270" height="445" alt="барбер за работой"></li>
-        </ul>
-        <div>
-            <p class="title-label">О НАС</p>
-            <h2 class="section-title title">Лучший Барбершоп
-                твоего города</h2>
-            <p>Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.</p>
-            <p>Мы команда, которая никогда не останавливается на достигнутом
-                и жаждет перемен. И когда ты попадешь в руки нашего мастера,
-                то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной волне".
-                Поэтому, мы всегда
-                готовы усовершенствовать каждого, кто к нам приходит!</p>
-            <button class="button" type="button">онлайн-запись</button>
+    <section class="section about">
+        <div class="about-container container ">
+            <div class="flexbox">
+                <ul class="list  flexbox-item grid-container-about">
+                    <li class="grid-item-about"><img src="./images/best/img1.jpg" alt="барбер за работой"></li>
+                    <li class="grid-item-about"><img src="./images/best/img2.jpg" alt="барбер за работой"></li>
+                </ul>
+                <div class="flexbox-item text-in-about">
+                    <p class="title-label">О НАС</p>
+                    <h2 class="section-title title">Лучший Барбершоп
+                        твоего города</h2>
+                    <p>Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.</p>
+                    <p>Мы команда, которая никогда не останавливается на достигнутом
+                        и жаждет перемен. И когда ты попадешь в руки нашего мастера,
+                        то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной волне".
+                        Поэтому, мы всегда
+                        готовы усовершенствовать каждого, кто к нам приходит!</p>
+                    <button class="button" type="button">онлайн-запись</button>
+                </div>
+            </div>
         </div>
     </section>
-    <section class="dark-bg">
+    <section class="dark-bg price section">
+        <div class="container">
 
-        <p class="title-label">Проведи время в компании лучших мастеров</p>
-        <h2 class="section-title title">Услуги и цены</h2>
-        <ul class="list">
-            <li><span>Мужская стрижка</span><span>от 300 грн.</span></li>
-            <li><span>Стрижка бороды</span><span>от 200 грн.</span></li>
-            <li><span>Стрижка усов</span><span>от 200 грн.</span></li>
-            <li><span>Бритье опасной бритвой</span><span>от 200 грн.</span></li>
-        </ul>
-        <ul class="list">
-            <li><span>Cтрижка у стажера</span><span>от 50 грн.</span></li>
-            <li><span>Стрижка под насадку</span><span>от 200 грн.</span></li>
-            <li><span>Детская стрижка (до 12 лет)</span><span>от 300 грн.</span></li>
-            <li><span>Камуфлирование седины.</span><span>от 200 грн.</span></li>
-        </ul>
-        <a class="link button" href="">онлайн-запись</a>
+            <p class="title-label">Проведи время в компании лучших мастеров</p>
+            <h2 class="section-title title">Услуги и цены</h2>
+            <ul class="list">
+                <li><span>Мужская стрижка</span><span>от 300 грн.</span></li>
+                <li><span>Стрижка бороды</span><span>от 200 грн.</span></li>
+                <li><span>Стрижка усов</span><span>от 200 грн.</span></li>
+                <li><span>Бритье опасной бритвой</span><span>от 200 грн.</span></li>
+            </ul>
+            <ul class="list">
+                <li><span>Cтрижка у стажера</span><span>от 50 грн.</span></li>
+                <li><span>Стрижка под насадку</span><span>от 200 грн.</span></li>
+                <li><span>Детская стрижка (до 12 лет)</span><span>от 300 грн.</span></li>
+                <li><span>Камуфлирование седины.</span><span>от 200 грн.</span></li>
+            </ul>
+            <a class="link button" href="">онлайн-запись</a>
+        </div>
     </section>
     <section class="benefits">
         <ul class="list benefits-list">
@@ -106,7 +112,7 @@
             <p>О нас говорят только хорошее. Но лучше 1 раз увидеть и прочувствовать, чем 10 раз прочитать.</p>
         </div>
     </section>
-    <section class="team">
+    <section class="team section">
         <div class="container">
             <p class="title-label">для настоящих ценителей атмосферы</p>
             <h2 class="section-title title">Наши мастера</h2>
@@ -153,6 +159,36 @@
                     <div class="team-text">
                         <h3 class="team-member">Michele Doe</h3>
                         <p class="team-member-position">Extreme Barber</p>
+                        <ul class="social-link-container list">
+                            <li class="social-item list">
+                                <a class="social-link" href="">
+                                    <svg class="social-icon" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-instagram-2"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-item list">
+                                <a class="social-link" href="">
+                                    <svg class="social-icon" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-twitter-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-item list">
+                                <a class="social-link" href="">
+                                    <svg class="social-icon" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-facebook-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-item list">
+                                <a class="social-link" href="">
+                                    <svg class="social-icon" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-linkedin-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </li>
                 <li class="team-item grid-item">
@@ -160,21 +196,60 @@
                     <div class="team-text">
                         <h3 class="team-member">Alan Black</h3>
                         <p class="team-member-position">Extreme Barber</p>
+                        <ul class="social-link-container list">
+                            <li class="social-item list">
+                                <a class="social-link" href="">
+                                    <svg class="social-icon" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-instagram-2"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-item list">
+                                <a class="social-link" href="">
+                                    <svg class="social-icon" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-twitter-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-item list">
+                                <a class="social-link" href="">
+                                    <svg class="social-icon" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-facebook-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-item list">
+                                <a class="social-link" href="">
+                                    <svg class="social-icon" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-linkedin-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </li>
             </ul>
         </div>
     </section>
-    <section>
-
-        <p class="title-label">На латинском языке “барба” означает “борода”</p>
-        <h2 class="section-title title visually-hidden">Портфолио</h2>
-        <ul class="list">
-            <li><img src="./images/gallery/img1.jpg" width="270" height="360" alt="барбер за работой"></li>
-            <li><img src="./images/gallery/img2.jpg" width="270" height="360" alt="барбер за работой"></li>
-            <li><img src="./images/gallery/img3.jpg" width="270" height="360" alt="барбер за работой"></li>
-            <li><img src="./images/gallery/img4.jpg" width="270" height="360" alt="барбер за работой"></li>
-        </ul>
+    <section class="section gallery">
+        <div class="container">
+            <p class="title-label">На латинском языке “барба” означает “борода”</p>
+            <h2 class="section-title title visually-hidden">Портфолио</h2>
+            <ul class="list grid-container galery-list">
+                <li class="grid-item"><img src="./images/gallery/img1.jpg" width="270" height="360"
+                        alt="барбер за работой">
+                </li>
+                <li class="grid-item"><img src="./images/gallery/img2.jpg" width="270" height="360"
+                        alt="барбер за работой">
+                </li>
+                <li class="grid-item"><img src="./images/gallery/img3.jpg" width="270" height="360"
+                        alt="барбер за работой">
+                </li>
+                <li class="grid-item"><img src="./images/gallery/img4.jpg" width="270" height="360"
+                        alt="барбер за работой">
+                </li>
+            </ul>
+        </div>
     </section>
     <div class="dark-bg">
         <section>

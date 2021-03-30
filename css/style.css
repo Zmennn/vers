@@ -46,8 +46,10 @@ html {
 	box-sizing: inherit;
 }
 
-*{
-  /* outline: solid 1px violet; */
+a{
+  display: block;
+  text-decoration: none;
+  color: inherit;
 }
 
 body{font-family: Open Sans, sans-serif;
@@ -60,15 +62,23 @@ address{font-style: normal;}
 
 img{
   display: block;
+  width: 100%;
+  height: auto; 
+
 }
  h1,h2,h3,h4,p{
    margin: 0;
    padding: 0;
  }
+
+.section{
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
 .container{
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
+  width: 1280px;
+  padding-left: 55px;
+  padding-right: 55px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -206,13 +216,50 @@ color: var(--dark-bg-title-color);}
 
 /* Hero */
 
-.hero{
-  min-height: 100vh;
-}
+
 
 .hero-content{
   width: calc(100%/12*5);
 }
+
+/* about */
+
+.flexbox{
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexbox-item:nth-child(1){
+  flex-basis: 570px;
+}
+
+.flexbox-item:nth-child(2){
+  flex-basis: 500px;
+}
+
+.about .grid-item{
+  --grid-items:2;
+  
+}
+
+.grid-container-about{
+  display: flex;
+}
+.grid-item-about{
+  flex-basis: calc((100% - 30px) / 2);
+}
+.grid-item-about:nth-child(1){
+  margin-right: 30px;
+}
+
+.about .title-label{
+  
+}
+
+.text-in-about:{
+margin-bottom: 20px;
+}
+
 .benefits-item{
 font-weight: 600;
 font-size: 11px;
@@ -231,8 +278,6 @@ letter-spacing: 0.05em;
 /* team */
 
 .team{
-  padding-top: 130px;
-  padding-bottom: 130px;
   background-color:var(--second-bg-color) ;
 }
 .team .title-label{
@@ -281,10 +326,17 @@ color: var(--accent-color);
   justify-content: center;
   align-items: center;
   fill: var(--title-color);
-  
+   
+}
 
+/* galery */
 
-  
+.galery-list{
+  --grid-items:4;
+}
+
+.gallery .title-label{
+  margin-bottom: 44px;
 }
 
 
@@ -299,3 +351,4 @@ color: var(--dark-bg-text-color);}
 .dark-bg .title,.dark-bg .button{color: var(--dark-bg-title-color);}
 
 .dark-bg .title-label{color: rgba(157, 164, 189, 0.6);}
+*{outline: solid 1px green}
