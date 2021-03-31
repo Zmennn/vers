@@ -158,12 +158,18 @@ padding-bottom: 12px;}
 
 .header .button{margin-left: 40px;}
 
-.socials-list{
-font-weight: 600;
-font-size: 11px;
-line-height: 1.36;
-letter-spacing: 0.2em;
-color: var(--title-color);}
+.social-list{
+  display: flex;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: var(--title-color);
+}
+
+.socials-item:first-child{
+  margin-right: 40px;
+}
 
 
 .title{font-family: var(--titile-font),sans-serif;
@@ -373,6 +379,24 @@ color: var(--accent-color);
   margin-bottom: 44px;
 }
 
+/* contacts */
+
+.contacts .container{
+  display: flex;
+}
+
+.registration{
+  flex-basis: 640px;
+  height: 644px;
+
+}
+
+.address-section{
+  flex-basis: 610px;
+  height: 644px;
+
+
+}
 
 
 
@@ -385,4 +409,4 @@ color: var(--dark-bg-text-color);}
 .dark-bg .title,.dark-bg .button{color: var(--dark-bg-title-color);}
 
 .dark-bg .title-label{color: rgba(157, 164, 189, 0.6);}
- *{outline: solid 1px green} 
+ /* *{outline: solid 1px green}  */
