@@ -394,10 +394,25 @@ color: var(--accent-color);
 .address-section{
   flex-basis: 610px;
   height: 644px;
+  padding-left: 100px;
 
 
 }
+.address-section h2{
+  margin-bottom: 40px;
+}
 
+.address-list li:not(:nth-child(1)){
+  margin-top: 20px;
+}
+
+.address-section address{
+  margin-bottom: 20px;
+}
+
+.address-section h3{
+  margin-bottom: 20px;
+}
 
 
 
@@ -409,4 +424,4 @@ color: var(--dark-bg-text-color);}
 .dark-bg .title,.dark-bg .button{color: var(--dark-bg-title-color);}
 
 .dark-bg .title-label{color: rgba(157, 164, 189, 0.6);}
- /* *{outline: solid 1px green}  */
+  *{outline: solid 1px green}  
