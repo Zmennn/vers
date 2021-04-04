@@ -329,6 +329,7 @@ color: inherit;}
   padding-left: 0;
   padding-right: 0;
   display: flex;
+  position: relative;
   
 }
 
@@ -365,6 +366,7 @@ color: inherit;}
   height: 133px;
   text-align: center;
   padding: 20px 24px;
+  position: absolute;
 }
 
 .benefits-number{
@@ -373,18 +375,29 @@ color: inherit;}
   line-height: 1.36;
   letter-spacing: 0.05em;
   margin-bottom: 6px;
-  display: flex;
-  
+  display: inline-block;
+  position: relative;
 }
 
-.benefits-number::after{
+/* after не получается спозиционировать */
+/* .benefits-number::after{
   content: "+";
   font-weight: 600;
   font-size: 16px;
   line-height: 1.375;
-  
   color: var(--accent-color);
   margin-left: 2px;
+} */
+
+.benefits-number-icon{
+  display: inline-block;
+  position: absolute;
+  top: 7px;
+  right: -15px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.375;
+  color: var(--accent-color);
 }
 
 
@@ -438,7 +451,13 @@ color: inherit;}
   justify-content: center;
   align-items: center;
   fill: var(--title-color);
+  background-color: var(--dark-bg-title-color);
+  border-radius: 50%;
   }
+
+.social-link:hover,.social-link:focus{
+  fill: var(--accent-color);
+}
 
 /* galery */
 
