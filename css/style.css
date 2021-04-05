@@ -121,6 +121,37 @@ color: inherit;}
   margin-right: 20px;
 }
 
+/* top */
+
+.box-top{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1280px;
+
+}
+
+.box-social{
+  width: 155px;
+  height: 680px;
+  background-color: var(--dark-bg-title-color);
+  position: relative;
+  
+}
+
+.box-social .social-list{
+transform: rotate(270deg);
+position: absolute;
+transform-origin: 0 0;
+bottom: 40px;
+left: 82px;
+
+}
+
+.header-hero{
+  width: 1125px;
+}
+
 /* header */
 .header{
   padding-bottom: 32px;
@@ -241,7 +272,7 @@ color: inherit;}
 /* Hero */
 
 .hero,.header{
-  width: 1280px;
+  width: 1125px;
   margin-left: auto;
   margin-right: auto;
 }
