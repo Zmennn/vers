@@ -150,13 +150,11 @@ left: 82px;
 
 .header-hero{
   width: 1125px;
-  background-image:url(../css/bg.jpg) ;
+  background-image:linear-gradient(to right,rgba(25, 28, 38, 0.2),rgba(25, 28, 38, 0.2)),
+  url(../images/sl/sl3.jpg);
 }
 
 /* header */
-.header{
-  padding-top: 40px;
-}
 
 .logo{
   position: absolute;
@@ -282,6 +280,8 @@ left: 82px;
 }
  
 .header{
+  padding-top: 40px;
+  padding-right: 55px;
   font-weight: 600;
   font-size: 12px;
   line-height: 1.33;
@@ -299,7 +299,7 @@ left: 82px;
 
 .hero-container{
   height: 600px;
-  padding-top: 190px;
+  padding-top: 178px;
   padding-left: 100px;
 }
 
