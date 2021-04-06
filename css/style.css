@@ -150,17 +150,24 @@ left: 82px;
 
 .header-hero{
   width: 1125px;
+  background-image:url(../css/bg.jpg) ;
 }
 
 /* header */
 .header{
-  padding-bottom: 32px;
-  padding-top: 32px;
+  padding-top: 40px;
 }
 
-.logo{display: block;}
+.logo{
+  position: absolute;
+  display: block;
+  left: -100px;
+}
 
-.menu{display: inline-flex;}
+.menu{
+  margin-left: 40px;
+  display: inline-flex;
+}
 
 .menu-item:not(:last-child){
   margin-right: 40px;
@@ -173,6 +180,7 @@ left: 82px;
 }
 
 .navigation{
+  position: relative;
   display: flex;
   align-items: center;
   margin-right: auto;
@@ -180,6 +188,17 @@ left: 82px;
 
 .header .logo{
   margin-right: 71px;
+}
+
+.nav-contacts{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-content{
+  display: flex;
+  align-items: center;
 }
 
 .button{
@@ -193,8 +212,8 @@ left: 82px;
   color: var(--title-color);
   border: 1px solid var(--accent-color);
   border-radius: 25px;
-  padding-top: 12px;
-  padding-bottom: 12px;}
+  padding-top: 11px;
+  padding-bottom: 11px;}
 
 .button:focus,
 .button:hover{
@@ -275,6 +294,18 @@ left: 82px;
   width: 1125px;
   margin-left: auto;
   margin-right: auto;
+  
+}
+
+.hero-container{
+  height: 600px;
+  padding-top: 190px;
+  padding-left: 100px;
+}
+
+.hero-content .page-title{
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .hero-content{
@@ -567,8 +598,8 @@ left: 82px;
 
 
 
-.dark-bg{background-color: var(--dark-bg-color);
-color: var(--dark-bg-text-color);}
+.dark-bg{
+  color: var(--dark-bg-text-color);}
 
 .dark-bg .title,.dark-bg .button{color: var(--dark-bg-title-color);}
 
